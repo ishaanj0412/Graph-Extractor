@@ -1,6 +1,6 @@
 <h1> GRAPH EXTRACTION USING OPEN AI GPT APIs</h1>
 
-<h3> Introduction </h3>
+<h2> Introduction </h2>
 
 The following project takes an image of any analytical graph (for now limited to line, bar and pie chart) and do the following:
 
@@ -10,7 +10,7 @@ The following project takes an image of any analytical graph (for now limited to
 
 The project tries to achieve this using OpenAI GPT-4o APIs and its Vision capabilites
 
-<h3> Setup </h3>
+<h2> Setup </h2>
 
 For python environment:
 
@@ -61,7 +61,7 @@ Environement Variables Setup:
 
 ```OPENAI_API_KEY="$(YOUR_OPENAI_API_KEY)$"```
 
-<h3> Running the Code</h3>
+<h2> Running the Code</h2>
 
 ```bash
 python image_class.py --image_path $(image_path)
