@@ -54,7 +54,7 @@ conda activate $(environment_name)
 pip install -r requirements.txt
 ```
 
-Environement Variables Setup:
+Environment Variables Setup:
 
 1) Create a ```.env``` file and add it to ```.gitignore```
 2) Initialise your OpenAI API key in it as follows:
