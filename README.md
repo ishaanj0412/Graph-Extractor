@@ -34,4 +34,35 @@ pip install -r requirements.txt
 
 For conda setup:
 
-1) 
+1) Install Anaconda and Miniconda
+
+2) Create a new environment:
+
+```bash
+conda create --name $(environment_name) -y
+```
+
+3) Activate the environment:
+
+```bash
+conda activate $(environment_name)
+```
+
+4) Install dependencies:
+
+```bash
+pip install -r requirements.txt
+```
+
+Environement Variables Setup:
+
+1) Create a ```.env``` file and add it to ```.gitignore```
+2) Initialise your OpenAI API key in it as follows:
+
+```OPENAI_API_KEY="$(YOUR_OPENAI_API_KEY)$"```
+
+<h3> Running the Code</h3>
+
+```bash
+python image_class.py --image_path $(image_path)
+```
