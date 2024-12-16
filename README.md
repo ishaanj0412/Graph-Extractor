@@ -59,7 +59,9 @@ Environment Variables Setup:
 1) Create a ```.env``` file and add it to ```.gitignore```
 2) Initialise your OpenAI API key in it as follows:
 
-```OPENAI_API_KEY="$(YOUR_OPENAI_API_KEY)$"```
+```
+OPENAI_API_KEY="$(YOUR_OPENAI_API_KEY)$"
+```
 
 <h2> Running the Code</h2>
 
